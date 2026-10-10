@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+.icon img {
+    height: 50px;
+    width: 50px;
+    margin-top: 4px;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    background-color: #4ca2db;
+    align-items: center;
+    height: 70px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 22px;
+    font-size: 20px;
+    color: white;
+    
+    
+}
+
+
