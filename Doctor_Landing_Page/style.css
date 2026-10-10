@@ -10,6 +10,7 @@
     height: 50px;
     width: 50px;
     margin-top: 4px;
+    margin-right: 300px;
 }
 .container{
     display: flex;
@@ -88,4 +89,13 @@
     display: flex;
     gap: 20px;
     
+}
+
+/* main part */
+
+.heading3{
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+     color: #4ca2db;
 }
