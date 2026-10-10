@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-  }
+
+}
+
+/* Navbar */
 
 .icon img {
     height: 50px;
@@ -22,8 +25,67 @@
     gap: 22px;
     font-size: 20px;
     color: white;
-    
-    
 }
 
+/* Banner */
 
+.banner-right img{
+    height: 400px;
+    width: 400px;
+   margin : 30px;
+    }
+
+.banner-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+.banner{
+        display: flex;
+        margin: 30px;
+        background-color: #c5d3d3;
+        
+        
+   }
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.heading1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #4ca2db;
+
+}
+.heading2 {
+    font-size: 20px;
+     color: #4ca2db;
+}
+
+.button1 {
+    padding: 10px 20px;
+    background-color: #4ca2db;
+    width: 200px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.button2 {
+    padding: 10px 20px;
+    background-color: #4ca2db;
+    width: 100px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+    
+}
