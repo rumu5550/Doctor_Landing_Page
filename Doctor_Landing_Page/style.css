@@ -7,26 +7,42 @@
 
 .nav_container {
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #102a43;
   align-items: center;
-  height: 70px;
+  height: 100px;
+  color: #ffffff;
+  padding: 0px 50px;
+  text-wrap: wrap;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
+
 .icon img {
-  height: 50px;
-  width: 50px;
-  margin-top: 4px;
-  margin-right: 300px;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.icon h2 {
+    color: white;
+    font-size: 28px;
+    margin: 0;
 }
 
 .menu {
-  display: flex;
-  list-style: none;
-  gap: 22px;
-  font-size: 20px;
-  color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 
@@ -150,6 +166,7 @@
 }
 
 /* Footer */
+
 footer {
   background-color: #102a43;
   color: #ffffff;
