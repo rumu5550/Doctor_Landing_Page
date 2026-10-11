@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   justify-content: space-around;
-  background-color: #4ca2db;
+  background-color: #102a43;
   align-items: center;
   height: 70px;
 }
@@ -26,8 +26,9 @@
   list-style: none;
   gap: 22px;
   font-size: 20px;
-  color: white;
+  color: #ffffff;
 }
+
 
 /* Banner */
 
@@ -60,27 +61,27 @@
 .heading1 {
   font-size: 40px;
   font-weight: bold;
-  color: #4ca2db;
+  color: #102a43;
 }
 .heading2 {
   font-size: 20px;
-  color: #4ca2db;
+  color: #102a43;
 }
 
 .button1 {
   padding: 10px;
-  background-color: #4ca2db;
+  background-color: #102a43;
   width: 150px;
   border: none;
-  color: white;
+  color: #ffffff;
   border-radius: 10px;
 }
 .button2 {
   padding: 10px;
-  background-color: #4ca2db;
+  background-color: #102a43;
   width: 100px;
   border: none;
-  color: white;
+  color: #ffffff;
   border-radius: 10px;
 }
 .btn {
@@ -94,31 +95,75 @@
   font-weight: bold;
   text-align: center;
   font-size: 40px;
-  color: #4ca2db;
+  color: #102a43;
+  margin-top: 5%;
 }
 
-.service_card img{
-    height: 80px;
-    width: 80px;
-    margin : 10px;
+.service_card img {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
 }
 
-.service_card{
-   background-color: #c5d3d3;
-   height: 280px;
-   width : 200px;
-   text-align: center;
-   box-shadow: 10px 10px 10px  #4ca2db;
-   display: center;
-   border-radius: 10px;
-   font-size: 13px;
-   padding: 20px;
-   
+.service_card {
+  background-color: #c5d3d3;
+  height: 280px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 10px 10px 20px #5a7486;
+  display: center;
+  border-radius: 10px;
+  font-size: 13px;
+  padding: 20px;
+  margin-top: 5%;
 }
 
-.card_container{
+.card_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Contact */
+
+.textarea {
+  padding: 30px;
+  text-align: center;
+}
+
+.form_container {
+  flex-wrap: wrap;
+  padding: 30px 100px;
+  text-align: center;
+}
+.text {
+  padding: 10px;
+}
+.button3 {
+  padding: 10px;
+  background-color: #102a43;
+  width: 230px;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #102a43;
+  color: #ffffff;
+  padding: 40px 60px;
+  
+}
+
+.footer2 {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
+    gap: 200px;
+}
+
+.footer2 div p a {
+    text-decoration: none;
+    color: #ffffff;
+    
 }
