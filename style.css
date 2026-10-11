@@ -52,12 +52,14 @@
   display: flex;
   margin: 30px;
   background-color: #c5d3d3;
+  border-radius: 10px;
 }
 
 .banner-right img {
   height: 400px;
   width: 400px;
   margin: 30px;
+  border-radius: 10px;
 }
 
 .banner-right {
@@ -144,8 +146,9 @@
 /* Contact */
 
 .textarea {
-  padding: 30px;
-  text-align: center;
+  padding: 10px;
+  width: 200px;
+  height: 80px;
 }
 
 .form_container {
@@ -155,6 +158,8 @@
 }
 .text {
   padding: 10px;
+  width: 200px;
+
 }
 .button3 {
   padding: 10px;
